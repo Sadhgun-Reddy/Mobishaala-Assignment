@@ -67,6 +67,10 @@
         color: aliceblue;
         text-decoration: none;
     }
+    .icon{
+        margin:3px;
+        padding-right:3px;
+    }
     .button-buy{
         background-color: rgb(183, 0, 0);
         color: beige ;
