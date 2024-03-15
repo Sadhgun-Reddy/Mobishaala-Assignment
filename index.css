@@ -1,0 +1,150 @@
+    .bg{
+        background-image: url('https://res.cloudinary.com/dxcphbysv/image/upload/v1710461361/mobishaala_BG_image_ablfmx.jpg');
+        background-size: cover ;
+        flex-direction: column;
+        display: flex;
+        height: 100vh;
+        padding-left: 60px;
+    }
+    .button-get{
+        background-color: rgb(183, 0, 0);
+        color: rgb(255, 255, 255);
+        height: 40px;
+        font-weight: 400;
+        border-radius: 5px;
+        width: 140px;
+        border-color: transparent;
+        box-shadow: 2px 2px rgb(111, 1, 1);  
+        margin-top: 10px;
+    }
+    .button-talk{
+        background-color: green;
+        color: rgb(255, 255, 255);
+        height: 40px;
+        font-weight: 400;
+        width: 120px;
+        border-radius: 5px;
+        border-color: transparent;
+        box-shadow: 2px 2px rgb(7, 63, 7);
+        margin-top: 10px;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+    .span{
+        color: orange;
+    }
+    .para{
+        font-weight: 700;
+        font-size: 20px;
+        color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .list{
+        font-size: 20px;
+        color: rgb(239, 239, 239);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .heading{
+        color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .main-heading{
+        color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        font-style: italic;
+        font-size: 50px;
+
+
+    }
+    .video{
+        padding: 40px;
+    
+    }
+    .anchor{
+        color: aliceblue;
+        text-decoration: none;
+    }
+    .button-buy{
+        background-color: rgb(183, 0, 0);
+        color: beige ;
+        height: 40px;
+        border-radius: 5px;
+        width: 70px;
+        border-color: transparent;
+        box-shadow: 2px 2px rgb(111, 1, 1);
+    }
+    .flex-b{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .flex-buttons{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .ul{
+        padding-top: 10px;
+    }
+    .mobile-only {
+        display: none;
+    }
+    @media screen and (max-width: 600px) {
+        .bg {
+            padding: 10px;
+            height: auto;
+        }
+
+        .container {
+            padding: 10px;
+            flex-direction: column;
+        }
+
+        .main-heading {
+            font-size: 24px;
+        }
+
+        .para,
+        .list,
+        .ul {
+            font-size: 14px;
+        }
+        .video {
+            max-width: 100%;
+            height: auto;
+            padding: 10px;
+        }
+        .heading,
+        
+        .flex-buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+        }
+        
+        .button-buy,
+        .button-get{
+            width: 50%;
+            
+        }
+        .button-talk {
+            width: 40%; 
+        }
+        .mobile-only {
+            display: block;
+            background-color: rgb(146, 5, 5);
+            padding: 10px;
+            color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .span2{
+            font-weight: 600;
+        }
+        
+    }
